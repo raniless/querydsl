@@ -119,10 +119,10 @@ public class QuerydslBasicTest {
 //                .selectFrom(member)
 //                .fetchResults();
 //
-        //count 쿼리로 변경
 //        results.getTotal();
 //        List<Member> content = results.getResults();
 
+        //count 쿼리로 변경
         long total = queryFactory
                 .selectFrom(member)
                 .fetchCount();
